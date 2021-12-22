@@ -1,0 +1,56 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+.nav-bg{
+    background-color: #0e0b16;
+}
+.nav-link{
+    color: #e7dfdd;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 20px;
+    transition: .5s;
+}
+.bar-link{
+    color: #e7dfdd;
+}
+
+.nav-link:hover{
+    color: #ffffff;
+    background-color: #4717f6;
+}
+.container{
+    margin: 0;
+    padding: 0;
+}
+.brand-logo{
+    width: 250px;
+}
+.button-nav{
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+.responsive-menu{
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    .responsive-menu{
+        display: flex;
+        width: 50px;
+        margin-top: -40px;
+        padding-bottom: 40px;
+        color: white;
+    }
+    .vanish{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .brand-logo{
+        width: 150px;
+    }
+}
